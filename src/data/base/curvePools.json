@@ -1,0 +1,170 @@
+[
+  {
+    "name": "curve-base-usd+",
+    "pool": "0xda3de145054ED30Ee937865D31B500505C4bDfe7",
+    "token": "0xda3de145054ED30Ee937865D31B500505C4bDfe7",
+    "gauge": "0xc0798d022eEE81F1408895325A9fBe171d2a24f1",
+    "rewards": [
+      {
+        "token": "0xB79DD08EA68A908A97220C76d19A6aA9cBDE4376",
+        "oracleId": "USD+",
+        "decimals": "1e6"
+      },
+      {
+        "token": "0x417Ac0e078398C154EdFadD9Ef675d30Be60Af93",
+        "oracleId": "crvUSD",
+        "decimals": "1e18"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "USD+",
+        "decimals": "1e6"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "crvUSD",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "curve-base-4pool",
+    "pool": "0xf6C5F01C7F3148891ad0e19DF78743D31E390D1f",
+    "token": "0xf6C5F01C7F3148891ad0e19DF78743D31E390D1f",
+    "gauge": "0x79edc58C471Acf2244B8f93d6f425fD06A439407",
+    "rewards": [
+      {
+        "token": "0x417Ac0e078398C154EdFadD9Ef675d30Be60Af93",
+        "oracleId": "crvUSD",
+        "decimals": "1e18"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "USDC",
+        "decimals": "1e6"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "USDbC",
+        "decimals": "1e6"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "axlUSDC",
+        "decimals": "1e6"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "crvUSD",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "curve-base-3c",
+    "pool": "0xA450487D8C8F355611EFF9553337BE67261Af26f",
+    "token": "0xA450487D8C8F355611EFF9553337BE67261Af26f",
+    "gauge": "0x6616CCfA456F72104452341fa470E9B08A11b1aB",
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "USDbC",
+        "decimals": "1e6"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "axlUSDC",
+        "decimals": "1e6"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "crvUSD",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "curve-base-cbeth",
+    "pool": "0x11C1fBd4b3De66bC0565779b35171a6CF3E71f59",
+    "token": "0x98244d93D42b42aB3E3A4D12A5dc0B3e7f8F32f9",
+    "gauge": "0xE9c898BA654deC2bA440392028D2e7A194E6dc3e",
+    "rewards": [
+      {
+        "token": "0x417Ac0e078398C154EdFadD9Ef675d30Be60Af93",
+        "oracleId": "crvUSD",
+        "decimals": "1e18"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "ETH",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "cbETH",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "curve-base-tricrypto",
+    "pool": "0x6e53131F68a034873b6bFA15502aF094Ef0c5854",
+    "token": "0x6e53131F68a034873b6bFA15502aF094Ef0c5854",
+    "gauge": "0x93933FA992927284e9d508339153B31eb871e1f4",
+    "rewards": [
+      {
+        "token": "0x417Ac0e078398C154EdFadD9Ef675d30Be60Af93",
+        "oracleId": "crvUSD",
+        "decimals": "1e18"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "crvUSD",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "tBTC",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "ETH",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "curve-base-crv",
+    "pool": "0xDE37E221442Fa15C35dc19FbAE11Ed106ba52fB2",
+    "token": "0x6DfE79cecE4f64c1a34F48cF5802492aB595257E",
+    "gauge": "0x89289DC2192914a9F0674f1E9A17C56456549b8A",
+    "rewards": [
+      {
+        "token": "0x417Ac0e078398C154EdFadD9Ef675d30Be60Af93",
+        "oracleId": "crvUSD",
+        "decimals": "1e18"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "CRV",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "crvUSD",
+        "decimals": "1e18"
+      }
+    ]
+  }
+]

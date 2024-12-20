@@ -1,0 +1,839 @@
+[
+  {
+    "name": "balancer-frxeth-bbaweth",
+    "address": "0xD00f9Ca46ce0E4A63067c4657986f0167b0De1E5",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0x83Ed440E7122FE3EFA28d3BC9d9eFca1952Ccb4b",
+    "vaultPoolId": "0xd00f9ca46ce0e4a63067c4657986f0167b0de1e5000000000000000000000b42",
+    "includesComposableAaveTokens": true,
+    "lsUrl": "https://api.frax.finance/v2/frxeth/summary/latest",
+    "dataPath": "$.sfrxethApr",
+    "balancerChargesFee": false,
+    "composable": true,
+    "bptIndex": 1,
+    "bbIndex": 0,
+    "bbPoolId": "0x43894de14462b421372bcfe445fa51b1b4a0ff3d000000000000000000000b36",
+    "lsIndex": 1,
+    "cmpIndex": 0,
+    "composableSplit": true,
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "newGauge": true,
+        "stream": "0x83Ed440E7122FE3EFA28d3BC9d9eFca1952Ccb4b",
+        "oracleId": "BAL"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "bbaWETH",
+        "decimals": "1e18"
+      },
+      {
+        "oracleId": "BPTToken"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "frxETH",
+        "decimals": "1e18"
+      }
+    ],
+    "aaveUnderlying": [
+      {
+        "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "index": 1,
+        "bbIndex": 0,
+        "poolId": "0x43894de14462b421372bcfe445fa51b1b4a0ff3d000000000000000000000b36"
+      }
+    ]
+  },
+  {
+    "name": "balancer-wsteth-bbaweth",
+    "address": "0x4a77eF015ddcd972fd9BA2C7D5D658689D090f1A",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0xB95397A17ACbb5824535ebE69Cd9DCF8fA7aFC50",
+    "vaultPoolId": "0x4a77ef015ddcd972fd9ba2c7d5d658689d090f1a000000000000000000000b38",
+    "includesComposableAaveTokens": true,
+    "lsUrl": "https://eth-api.lido.fi/v1/protocol/steth/apr/sma",
+    "dataPath": "$.data.smaApr",
+    "balancerChargesFee": false,
+    "composable": true,
+    "bptIndex": 2,
+    "bbIndex": 0,
+    "bbPoolId": "0x43894de14462b421372bcfe445fa51b1b4a0ff3d000000000000000000000b36",
+    "lsIndex": 0,
+    "cmpIndex": 1,
+    "composableSplit": true,
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "newGauge": true,
+        "stream": "0xB95397A17ACbb5824535ebE69Cd9DCF8fA7aFC50",
+        "oracleId": "BAL"
+      },
+      {
+        "stream": "0xB95397A17ACbb5824535ebE69Cd9DCF8fA7aFC50",
+        "rewardToken": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "oracleId": "USDC",
+        "decimals": "1e6"
+      },
+      {
+        "stream": "0xB95397A17ACbb5824535ebE69Cd9DCF8fA7aFC50",
+        "rewardToken": "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756",
+        "oracleId": "LDO",
+        "decimals": "1e18"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "wstETH",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "bbaWETH",
+        "decimals": "1e18"
+      },
+      {
+        "oracleId": "BPTToken"
+      }
+    ],
+    "aaveUnderlying": [
+      {
+        "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+        "index": 1,
+        "bbIndex": 0,
+        "poolId": "0x43894de14462b421372bcfe445fa51b1b4a0ff3d000000000000000000000b36"
+      }
+    ]
+  },
+  {
+    "name": "balancer-maticx-bbawmatic",
+    "address": "0xE78b25c06dB117fdF8F98583CDaaa6c92B79E917",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0x956074628A64a316086f7125074a8A52d3306321",
+    "vaultPoolId": "0xe78b25c06db117fdf8f98583cdaaa6c92b79e917000000000000000000000b2b",
+    "includesComposableAaveTokens": true,
+    "lsUrl": "https://universe.staderlabs.com/polygon/apy",
+    "dataPath": "$.value",
+    "balancerChargesFee": false,
+    "composable": true,
+    "bptIndex": 1,
+    "bbIndex": 0,
+    "bbPoolId": "0xe4885ed2818cc9e840a25f94f9b2a28169d1aea7000000000000000000000b29",
+    "lsIndex": 1,
+    "cmpIndex": 0,
+    "composableSplit": true,
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "newGauge": true,
+        "stream": "0x956074628A64a316086f7125074a8A52d3306321",
+        "oracleId": "BAL"
+      },
+      {
+        "stream": "0x956074628A64a316086f7125074a8A52d3306321",
+        "rewardToken": "0x1d734A02eF1e1f5886e66b0673b71Af5B53ffA94",
+        "oracleId": "SD"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "bbaWMATIC",
+        "decimals": "1e18"
+      },
+      {
+        "oracleId": "BPTToken"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "MaticX",
+        "decimals": "1e18"
+      }
+    ],
+    "aaveUnderlying": [
+      {
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "index": 1,
+        "bbIndex": 0,
+        "poolId": "0xe4885ed2818cc9e840a25f94f9b2a28169d1aea7000000000000000000000b29"
+      }
+    ]
+  },
+  {
+    "name": "balancer-stmatic-bbawmatic",
+    "address": "0x216690738aac4aa0c4770253ca26a28f0115c595",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0x1e916950A659Da9813EE34479BFf04C732E03deb",
+    "vaultPoolId": "0x216690738aac4aa0c4770253ca26a28f0115c595000000000000000000000b2c",
+    "includesComposableAaveTokens": true,
+    "lsUrl": "https://polygon.lido.fi/api/stats",
+    "dataPath": "$.apr",
+    "balancerChargesFee": false,
+    "composable": true,
+    "bptIndex": 0,
+    "bbIndex": 0,
+    "bbPoolId": "0xe4885ed2818cc9e840a25f94f9b2a28169d1aea7000000000000000000000b29",
+    "lsIndex": 0,
+    "cmpIndex": 1,
+    "composableSplit": true,
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "newGauge": true,
+        "stream": "0x1e916950A659Da9813EE34479BFf04C732E03deb",
+        "oracleId": "BAL"
+      },
+      {
+        "stream": "0x1e916950A659Da9813EE34479BFf04C732E03deb",
+        "rewardToken": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "oracleId": "USDC",
+        "decimals": "1e6"
+      },
+      {
+        "stream": "0x1e916950A659Da9813EE34479BFf04C732E03deb",
+        "rewardToken": "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756",
+        "oracleId": "LDO",
+        "decimals": "1e18"
+      }
+    ],
+    "tokens": [
+      {
+        "oracleId": "BPTToken"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "stMATIC",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "bbaWMATIC",
+        "decimals": "1e18"
+      }
+    ],
+    "aaveUnderlying": [
+      {
+        "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+        "index": 1,
+        "bbIndex": 0,
+        "poolId": "0xe4885ed2818cc9e840a25f94f9b2a28169d1aea7000000000000000000000b29"
+      }
+    ]
+  },
+  {
+    "name": "balancer-sd-maticx",
+    "address": "0x4973f591784D9c94052a6c3EBd553FCD37Bb0E55",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0x407afb5De13d257eB7db4F81E93CB532aa6D8975",
+    "vaultPoolId": "0x4973f591784d9c94052a6c3ebd553fcd37bb0e5500020000000000000000087f",
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "stream": "0xF49DFfb990caaBc0Ba151e337dA91c3a9dc42b87",
+        "token": "0x1d734A02eF1e1f5886e66b0673b71Af5B53ffA94",
+        "oracleId": "SD"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "SD",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "MaticX",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "balancer-jeur-par-v2",
+    "address": "0x513CdEE00251F39DE280d9E5f771A6eaFebCc88E",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0x5c13C3b72b031b6405046C319B2D840d3C1403c7",
+    "vaultPoolId": "0x513cdee00251f39de280d9e5f771a6eafebcc88e000000000000000000000a6b",
+    "composable": true,
+    "bptIndex": 1,
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "newGauge": true,
+        "stream": "0x5c13C3b72b031b6405046C319B2D840d3C1403c7",
+        "oracleId": "BAL"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "jEUR",
+        "decimals": "1e18"
+      },
+      {
+        "oracleId": "BPTToken"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "PAR",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "balancer-poly-eth-frxeth",
+    "address": "0x5DEe84FfA2DC27419Ba7b3419d7146E53e4F7dEd",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0xF75Bf196b64f2FCf942C29b5bE7f4742e4fD16Bd",
+    "vaultPoolId": "0x5dee84ffa2dc27419ba7b3419d7146e53e4f7ded000200000000000000000a4e",
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "stream": "0x7f4D96B679EdaFcFb4C1e4729732B2A12C47F0f8",
+        "token": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+        "oracleId": "BAL"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "ETH",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "frxETH",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "balancer-poly-wsteth-eth",
+    "address": "0x65Fe9314bE50890Fb01457be076fAFD05Ff32B9A",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0x94e5C0270250d9E13B0545279807eF8c6c4Ed2a3",
+    "vaultPoolId": "0x65fe9314be50890fb01457be076fafd05ff32b9a000000000000000000000a96",
+    "decimals": "1e18",
+    "lsUrl": "https://eth-api.lido.fi/v1/protocol/steth/apr/sma",
+    "dataPath": "$.data.smaApr",
+    "balancerChargesFee": true,
+    "composable": true,
+    "bptIndex": 1,
+    "lsIndex": 0,
+    "rewards": [
+      {
+        "stream": "0xc3dEd5f9338160Dd66902976bbC23A67BE5E048c",
+        "token": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+        "oracleId": "BAL"
+      },
+      {
+        "stream": "0xc3dEd5f9338160Dd66902976bbC23A67BE5E048c",
+        "token": "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756",
+        "oracleId": "LDO"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "wstETH",
+        "decimals": "1e18"
+      },
+      {
+        "oracleId": "BPTToken"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "ETH",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "balancer-usdc-wusdr",
+    "address": "0x34A81e8956BF20b7448b31990A2c06F96830a6e4",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0x80f392Bf3FA6973C3e14bb276e04931Ec12DE05E",
+    "vaultPoolId": "0x34a81e8956bf20b7448b31990a2c06f96830a6e4000200000000000000000a14",
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "newGauge": true,
+        "stream": "0x80f392Bf3FA6973C3e14bb276e04931Ec12DE05E",
+        "oracleId": "BAL"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "USDC",
+        "decimals": "1e6"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "wUSDR",
+        "decimals": "1e9"
+      }
+    ]
+  },
+  {
+    "name": "balancer-jeur-ageur",
+    "address": "0xa48D164F6eB0EDC68bd03B56fa59E12F24499aD1",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0x8c73C7A998F54e3A936885C752c9955c78A5Febb",
+    "vaultPoolId": "0xa48d164f6eb0edc68bd03b56fa59e12f24499ad10000000000000000000007c4",
+    "composable": true,
+    "bptIndex": 1,
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "stream": "0x86dE15c3035F479bD13CF8Ed94E57703304dc9c1",
+        "token": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+        "oracleId": "BAL"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "jEUR",
+        "decimals": "1e18"
+      },
+      {
+        "oracleId": "BPTToken"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "agEUR",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "balancer-jeur-par",
+    "address": "0x7d60a4Cb5cA92E2Da965637025122296ea6854f9",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0xD14875e2C65A46d15501C9296A9bCC0E17510978",
+    "vaultPoolId": "0x7d60a4cb5ca92e2da965637025122296ea6854f900000000000000000000085e",
+    "composable": true,
+    "bptIndex": 1,
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "stream": "0xb72B394b24616b3ce9b0803ea691b9C32f979D6D",
+        "token": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+        "oracleId": "BAL"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "jEUR",
+        "decimals": "1e18"
+      },
+      {
+        "oracleId": "BPTToken"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "PAR",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "balancer-2brl-bbamusd",
+    "address": "0x4A0b73f0D13fF6d43e304a174697e3d5CFd310a4",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0x75108A554A34BB2846ABfb00D889BFD0Bb34E1d6",
+    "vaultPoolId": "0x4a0b73f0d13ff6d43e304a174697e3d5cfd310a400020000000000000000091c",
+    "bbIndex": 2,
+    "bbPoolId": "0x48e6b98ef6329f8f0a30ebb8c7c960330d64808500000000000000000000075b",
+    "lsIndex": 0,
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "stream": "0x4d2d57B5CF4656F163552A757A8041Efb83210Ab",
+        "token": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+        "oracleId": "BAL"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "bbamUSD",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "2BRL",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "balancer-brz-jbrl",
+    "address": "0xE22483774bd8611bE2Ad2F4194078DaC9159F4bA",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0xbDb8DA6156722a3D583ee679988B35cacCd86BC3",
+    "vaultPoolId": "0xe22483774bd8611be2ad2f4194078dac9159f4ba0000000000000000000008f0",
+    "composable": true,
+    "bptIndex": 1,
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "stream": "0xd394362862359b8177407E6f8Ad3136F9B3C1289",
+        "token": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+        "oracleId": "BAL"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "BRZ",
+        "decimals": "1e4"
+      },
+      {
+        "oracleId": "BPTToken"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "jBRL",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "balancer-bbamUSD",
+    "address": "0x48e6B98ef6329f8f0A30eBB8c7C960330d648085",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0x1c514fEc643AdD86aeF0ef14F4add28cC3425306",
+    "vaultPoolId": "0x48e6b98ef6329f8f0a30ebb8c7c960330d64808500000000000000000000075b",
+    "decimals": "1e18",
+    "chainId": 137,
+    "beefyFee": 0.095,
+    "composable": true,
+    "bbIndex": 2,
+    "bbPoolId": "0x48e6b98ef6329f8f0a30ebb8c7c960330d64808500000000000000000000075b",
+    "bptIndex": 1,
+    "rewards": [
+      {
+        "stream": "0xea3150db47FA1BD4F94E2A47900C09D51C39BAE8",
+        "token": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+        "oracleId": "BAL"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "bbamDAI",
+        "decimals": "1e18"
+      },
+      {
+        "oracleId": "BPTToken"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "bbamUSDC",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "bbamUSDT",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "balancer-matic-maticx-v2",
+    "address": "0xb20fC01D21A50d2C734C4a1262B4404d41fA7BF0",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0xdFFe97094394680362Ec9706a759eB9366d804C2",
+    "lsUrl": "https://universe.staderlabs.com/polygon/apy",
+    "dataPath": "$.value",
+    "balancerChargesFee": true,
+    "vaultPoolId": "0xb20fc01d21a50d2c734c4a1262b4404d41fa7bf000000000000000000000075c",
+    "decimals": "1e18",
+    "beefyFee": 0.095,
+    "composable": true,
+    "bptIndex": 1,
+    "lsIndex": 1,
+    "rewards": [
+      {
+        "stream": "0x0AF97133f1d922EFD383416be5f34Cb584476D40",
+        "token": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+        "oracleId": "BAL"
+      },
+      {
+        "stream": "0x0AF97133f1d922EFD383416be5f34Cb584476D40",
+        "token": "0x1d734A02eF1e1f5886e66b0673b71Af5B53ffA94",
+        "oracleId": "SD"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "WMATIC",
+        "decimals": "1e18"
+      },
+      {
+        "oracleId": "BPTToken"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "MaticX",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "balancer-matic-stmatic-v2",
+    "address": "0x8159462d255C1D24915CB51ec361F700174cD994",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0x2Aa6fB79EfE19A3fcE71c46AE48EFc16372ED6dD",
+    "vaultPoolId": "0x8159462d255c1d24915cb51ec361f700174cd99400000000000000000000075d",
+    "decimals": "1e18",
+    "lsUrl": "https://polygon.lido.fi/api/stats",
+    "dataPath": "$.apr",
+    "balancerChargesFee": true,
+    "composable": true,
+    "bptIndex": 2,
+    "lsIndex": 1,
+    "rewards": [
+      {
+        "stream": "0xF428556c5f2a2890269c8Eb5Ce8fc91d9744A6aA",
+        "token": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+        "oracleId": "BAL"
+      },
+      {
+        "stream": "0xF428556c5f2a2890269c8Eb5Ce8fc91d9744A6aA",
+        "token": "0xC3C7d422809852031b44ab29EEC9F1EfF2A58756",
+        "oracleId": "LDO"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "WMATIC",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "stMATIC",
+        "decimals": "1e18"
+      },
+      {
+        "oracleId": "BPTToken"
+      }
+    ]
+  },
+  {
+    "name": "balancer-wbtc-usdc-eth",
+    "address": "0x03cD191F589d12b0582a99808cf19851E468E6B5",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0x219b3a4a2D2351582277A87048995034ca7e9aEF",
+    "vaultPoolId": "0x03cd191f589d12b0582a99808cf19851e468e6b500010000000000000000000a",
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "newGauge": true,
+        "stream": "0x219b3a4a2D2351582277A87048995034ca7e9aEF",
+        "oracleId": "BAL"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "WBTC",
+        "decimals": "1e8"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "USDC",
+        "decimals": "1e6"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "ETH",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "balancer-link-eth-bal-aave",
+    "address": "0xce66904B68f1f070332Cbc631DE7ee98B650b499",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0xffFc1aFFD8CC1596da88A24b274866D59c7d80B0",
+    "vaultPoolId": "0xce66904b68f1f070332cbc631de7ee98b650b499000100000000000000000009",
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "stream": "0x64AFDb69C22971B2ed289020f78a47E070cFadba",
+        "token": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+        "oracleId": "BAL"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "LINK",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "ETH",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "BAL",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "AAVE",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "balancer-usdc-link-eth-bal-aave",
+    "address": "0x36128D5436d2d70cab39C9AF9CcE146C38554ff0",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0xe32AF68E3e23dd01441f598B1D967A0bF7c6B407",
+    "vaultPoolId": "0x36128d5436d2d70cab39c9af9cce146c38554ff0000100000000000000000008",
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "stream": "0x73CF9C065bFB9ABf76d94787324CfC4F751ac097",
+        "token": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+        "oracleId": "BAL"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "USDC",
+        "decimals": "1e6"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "LINK",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "ETH",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "BAL",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "AAVE",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "balancer-matic-usdc-eth-bal",
+    "address": "0x0297e37f1873D2DAb4487Aa67cD56B58E2F27875",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0x068Ff98072d3eB848D012e3390703BB507729ed6",
+    "vaultPoolId": "0x0297e37f1873d2dab4487aa67cd56b58e2f27875000100000000000000000002",
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "stream": "0x0FC855f77cE75Bb6a5d650D0c4cC92E460c03E25",
+        "token": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+        "oracleId": "BAL"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "WMATIC",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "USDC",
+        "decimals": "1e6"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "ETH",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "BAL",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "balancer-matic-maticx",
+    "address": "0xC17636e36398602dd37Bb5d1B3a9008c7629005f",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0x48534d027f8962692122dB440714fFE88Ab1fA85",
+    "vaultPoolId": "0xC17636E36398602DD37BB5D1B3A9008C7629005F0002000000000000000004C4",
+    "decimals": "1e18",
+    "beefyFee": 0.095,
+    "rewards": [
+      {
+        "stream": "0x7fFdEc1fE5FfcD4F80F535b4a992a8Df16c683bd",
+        "token": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+        "oracleId": "BAL"
+      },
+      {
+        "stream": "0x7fFdEc1fE5FfcD4F80F535b4a992a8Df16c683bd",
+        "token": "0x1d734A02eF1e1f5886e66b0673b71Af5B53ffA94",
+        "oracleId": "SD"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "WMATIC",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "MaticX",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "balancer-matic-stmatic",
+    "address": "0xaF5E0B5425dE1F5a630A8cB5AA9D97B8141C908D",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0x9928340f9E1aaAd7dF1D95E27bd9A5c715202a56",
+    "vaultPoolId": "0xAF5E0B5425DE1F5A630A8CB5AA9D97B8141C908D000200000000000000000366",
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "stream": "0x0fD7e9171b4dC9D89E157c2cc9A424Cd9C40a034",
+        "token": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+        "oracleId": "BAL"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "WMATIC",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "stMATIC",
+        "decimals": "1e18"
+      }
+    ]
+  }
+]

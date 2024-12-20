@@ -1,0 +1,110 @@
+[
+  {
+    "name": "aura--op-dola-usdce",
+    "address": "0xACfE9b4782910A853b68abbA60f3FD8049Ffe638",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0x5a473b418193C6a3967aF0913135534B7b3B23E9",
+    "vaultPoolId": "0xacfe9b4782910a853b68abba60f3fd8049ffe6380000000000000000000000ff",
+    "composable": true,
+    "bptIndex": 2,
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "rewardGauge": "0x5aD208Ae071e154e0ae9fE21f6fF036a7ED8DC90",
+        "oracleId": "OP",
+        "decimals": "1e18"
+      },
+      {
+        "rewardGauge": "0x6040423B4687646a38cD19A4d55D83f50154eDf8",
+        "oracleId": "AURA",
+        "decimals": "1e18"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "opUSDCe",
+        "decimals": "1e6"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "DOLA",
+        "decimals": "1e18"
+      },
+      {
+        "oracleId": "BPTToken"
+      }
+    ]
+  },
+  {
+    "name": "beets-rocket-fuel",
+    "address": "0x4Fd63966879300caFafBB35D157dC5229278Ed23",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0x61ac9315a1Ae71633E95Fb35601B59180eC8d61d",
+    "vaultPoolId": "0x4fd63966879300cafafbb35d157dc5229278ed2300020000000000000000002b",
+    "decimals": "1e18",
+    "lsUrl": "https://api.rocketpool.net/api/apr",
+    "dataPath": "$.yearlyAPR",
+    "lsIndex": 1,
+    "balancerChargesFee": true,
+    "rewards": [
+      {
+        "rewardGauge": "0x0A22Ae9D9D149C14f6c15A235e715bB6C1Cfa739",
+        "oracleId": "OP",
+        "decimals": "1e18"
+      },
+      {
+        "rewardGauge": "0x81673Cdd00c2839440f31575cCFa5B6ca4a87B2B",
+        "oracleId": "AURA",
+        "decimals": "1e18"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "ETH",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "rETH",
+        "decimals": "1e18"
+      }
+    ]
+  },
+  {
+    "name": "beets-eclp-wsteth-eth",
+    "address": "0x7Ca75bdEa9dEde97F8B13C6641B768650CB83782",
+    "vault": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "gauge": "0x9f43f726dF654E033B04c39989af90ab44875fEB",
+    "lsUrl": "https://eth-api.lido.fi/v1/protocol/steth/apr/sma",
+    "dataPath": "$.data.smaApr",
+    "lsIndex": 0,
+    "vaultPoolId": "0x7ca75bdea9dede97f8b13c6641b768650cb837820002000000000000000000d5",
+    "decimals": "1e18",
+    "rewards": [
+      {
+        "rewardGauge": "0x7f98caFb8B9E599C12D129F4F914FaC07E953271",
+        "oracleId": "OP",
+        "decimals": "1e18"
+      },
+      {
+        "rewardGauge": "0x6248255242Fa594e5483718B9e4735B79D1E9db8",
+        "oracleId": "AURA",
+        "decimals": "1e18"
+      }
+    ],
+    "tokens": [
+      {
+        "oracle": "tokens",
+        "oracleId": "wstETH",
+        "decimals": "1e18"
+      },
+      {
+        "oracle": "tokens",
+        "oracleId": "ETH",
+        "decimals": "1e18"
+      }
+    ]
+  }
+]
